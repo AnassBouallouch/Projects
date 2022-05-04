@@ -1,0 +1,25 @@
+body{
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+    background-color: black;
+}
+
+nav{
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: solid 1px seashell;
+    
+}
+li{
+ color: white;  
+ list-style-type:none; 
+ font-size: 22px;
+ text-decoration: underline;
+ padding: 30px;
+ 
+}

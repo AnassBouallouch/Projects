@@ -1,0 +1,108 @@
+body{
+/* background-image: url(pastel3.jpg); */
+font-family: "Dosis",sans-serif;
+background: url(https://papers.co/wallpaper/papers.co-sk10-soft-pastel-sky-blur-gradation-25-wallpaper.jpg)!important;
+}
+
+
+
+
+a {
+    transition: background-position 275ms ease;
+    color: #FF7878;
+
+  }
+  a:hover {
+    background-position: 0 100%;
+    color: #3D8DAE;
+
+  }
+
+.text-box {
+    font-size: 80px;
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    top: 300px;
+   }
+
+
+
+
+
+  span{
+    display: inline-block;
+    animation: mover 6s linear infinite;
+}
+
+
+@keyframes mover{
+   
+    0%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+        color: #3D8DAE;
+      }
+    32%{
+      color: #FF7878;
+    }
+    
+    33%   {color:#5F939A;
+    
+    }
+    65%   {color:#6867AC;
+    
+    }
+    66%   {color:#58181F;
+    
+    }
+    99%   {color:#3D8DAE;
+    
+      
+    }
+    
+    
+    50%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
+        transform: translateY(30px);
+      }
+    100%
+      {
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+      }
+}
+
+span:nth-child(1){
+    animation-delay:0.5s;
+        
+}
+span:nth-child(2){
+    animation-delay:1.0s;
+
+
+  }
+
+span:nth-child(3){
+    animation-delay:1.5s;
+}
+
+span:nth-child(4){
+    animation-delay:2.0s;
+}
+
+span:nth-child(5){
+    animation-delay:2.5s;
+}
+
+span:nth-child(6){
+    animation-delay:3.0s;
+}
+
+span:nth-child(7){
+    animation-delay:3.5s;
+}
+
+
+
